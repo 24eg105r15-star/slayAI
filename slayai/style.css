@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+    background: #f4f6f8;
+    margin: 0;
+}
+
+.navbar {
+    background: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li {
+    cursor: pointer;
+}
+
+.hero {
+    padding: 80px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
